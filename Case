@@ -1,0 +1,202 @@
+<div id="network_table" class="nosh3 overview_table flex-table active_table" style="display: block;">
+   <table class="filter compact fill">
+      <colgroup>
+         <col>
+         <col>
+         <col>
+         <col>
+         <col>
+         <col>
+         <col>
+         <col>
+         <col>
+         <col>
+      </colgroup>
+      <thead>
+         <tr class="ft_head">
+            <th style="width:20px" class="ft ftl checkbox nodrag checkbox ftlegend"><input type="checkbox" class="check_all"></th>
+            <th class="ft ftc network_status nodrag network_status ftsortable">
+               <table class="lean" style="margin:0 auto">
+                  <tbody>
+                     <tr style="vertical-align:bottom">
+                        <td class="ftlegend dashhelp_initialized">  <i id="dashhelpa_521" class="asx_p fa fa-info-circle" alt="[Help]"></i></td>
+                        <td style="padding:0 0 2px"><img src="/images/icon_arrow_up_10x10.png" title="Toggle sort order" alt="[Sorting up]" style="width:10px;height:10px"></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </th>
+            <th class="ft ftl  editable_name ftsortable">
+               <table class="lean">
+                  <tbody>
+                     <tr style="vertical-align:bottom">
+                        <td class="ftlegend">Name</td>
+                        <td style="padding:0 5px"></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </th>
+            <th class="ft ftl  usage ftsortable">
+               <table class="lean">
+                  <tbody>
+                     <tr style="vertical-align:bottom">
+                        <td class="ftlegend">Usage</td>
+                        <td style="padding:0 5px"></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </th>
+            <th class="ft ftl  clients ftsortable">
+               <table class="lean">
+                  <tbody>
+                     <tr style="vertical-align:bottom">
+                        <td class="ftlegend">Clients</td>
+                        <td style="padding:0 5px"></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </th>
+            <th class="ft ftl  tags ftsortable">
+               <table class="lean">
+                  <tbody>
+                     <tr style="vertical-align:bottom">
+                        <td class="ftlegend">Tags</td>
+                        <td style="padding:0 5px"></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </th>
+            <th class="ft ftl  type ftsortable">
+               <table class="lean">
+                  <tbody>
+                     <tr style="vertical-align:bottom">
+                        <td class="ftlegend">Network type</td>
+                        <td style="padding:0 5px"></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </th>
+            <th class="ft ftl  network_health ftlegend dashhelp_initialized">Network health <i id="dashhelpa_522" class="asx_p fa fa-info-circle" alt="[Help]"></i></th>
+            <th class="ft ftl  nodes ftsortable">
+               <table class="lean">
+                  <tbody>
+                     <tr style="vertical-align:bottom">
+                        <td class="ftlegend">Devices</td>
+                        <td style="padding:0 5px"></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </th>
+            <th class="ft ftl  offline ftsortable">
+               <table class="lean">
+                  <tbody>
+                     <tr style="vertical-align:bottom">
+                        <td class="ftlegend">Offline devices</td>
+                        <td style="padding:0 5px"></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </th>
+         </tr>
+      </thead>
+      <tfoot>
+         <tr class="ft_foot">
+            <td class="ft_foot" colspan="10">
+               <table class="ft_foot">
+                  <tfoot>
+                     <tr class="ft_foot">
+                        <td class="pgsel"><img src="/images/onebyone.gif" alt="" style="visibility: hidden; height: 5px"></td>
+                     </tr>
+                  </tfoot>
+               </table>
+            </td>
+         </tr>
+      </tfoot>
+      <tbody class="flex-table-body">
+         <tr class="ftp0" data-idx="0" "="" id="row_0">
+            <td class="ft notranslate checkbox nodrag"><input type="checkbox" class="row_check"></td>
+            <td class="ft notranslate network_status nodrag ftc"><img style="margin-bottom:1px" src="/images/bubble-shadow-1.png" height="20px" width="20px"></td>
+            <td class="ft notranslate editable_name"><a class="node_group_name" href="/Live-Demo-Univer/n/q4lg7bmc/manage">Live Demo - University Wireless</a><input type="text" class="node_group_name" value="Live Demo - University Wireless" style="display: none"><span class="hover_edit_link_holder"><a href="#edit_node_group_name" class="fa fa-pencil btn btn-default" data-ng-id="641762946900853553" data-ng-type="wireless"></a></span></td>
+            <td class="ft notranslate usage">None</td>
+            <td class="ft notranslate clients">0</td>
+            <td class="ft notranslate tags"></td>
+            <td class="ft notranslate type">Wireless</td>
+            <td class="ft notranslate network_health">
+               <div id="network_health_graph_641762946900853553" class="health_graph fill-graph" style="position: relative; padding: 0px;">
+                  <canvas class="flot-base" width="200" height="18" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 200px; height: 18px;"></canvas>
+                  <canvas class="flot-overlay" width="200" height="18" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 200px; height: 18px;"></canvas>
+               </div>
+            </td>
+            <td class="ft notranslate nodes">50</td>
+            <td class="ft notranslate offline">1</td>
+         </tr>
+         <tr class="ftp1" data-idx="1" "="" id="row_1">
+            <td class="ft notranslate checkbox nodrag"><input type="checkbox" class="row_check"></td>
+            <td class="ft notranslate network_status nodrag ftc"><img style="margin-bottom:1px" src="/images/bubble-shadow-1.png" height="20px" width="20px"></td>
+            <td class="ft notranslate editable_name"><a class="node_group_name" href="/Live-Demo-Branch/n/Nl3C_cmc/manage">Live Demo - Branch Wireless</a><input type="text" class="node_group_name" value="Live Demo - Branch Wireless" style="display: none"><span class="hover_edit_link_holder"><a href="#edit_node_group_name" class="fa fa-pencil btn btn-default" data-ng-id="641762946900853554" data-ng-type="wireless"></a></span></td>
+            <td class="ft notranslate usage">None</td>
+            <td class="ft notranslate clients">0</td>
+            <td class="ft notranslate tags"></td>
+            <td class="ft notranslate type">Wireless</td>
+            <td class="ft notranslate network_health">
+               <div id="network_health_graph_641762946900853554" class="health_graph fill-graph" style="position: relative; padding: 0px;">
+                  <canvas class="flot-base" width="200" height="18" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 200px; height: 18px;"></canvas>
+                  <canvas class="flot-overlay" width="200" height="18" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 200px; height: 18px;"></canvas>
+               </div>
+            </td>
+            <td class="ft notranslate nodes">5</td>
+            <td class="ft notranslate offline">1</td>
+         </tr>
+         <tr class="ftp0" data-idx="2" "="" id="row_2">
+            <td class="ft notranslate checkbox nodrag"><input type="checkbox" class="row_check"></td>
+            <td class="ft notranslate network_status nodrag ftc"><img style="margin-bottom:1px" src="/images/bubble-shadow-1.png" height="20px" width="20px"></td>
+            <td class="ft notranslate editable_name"><a class="node_group_name" href="/Live-Demo-Firewa/n/_kVs9amc/manage">Live Demo - Firewall</a><input type="text" class="node_group_name" value="Live Demo - Firewall" style="display: none"><span class="hover_edit_link_holder"><a href="#edit_node_group_name" class="fa fa-pencil btn btn-default" data-ng-id="641762946900853555" data-ng-type="wired"></a></span></td>
+            <td class="ft notranslate usage">384.44&nbsp;GB</td>
+            <td class="ft notranslate clients">61</td>
+            <td class="ft notranslate tags"></td>
+            <td class="ft notranslate type">Appliance</td>
+            <td class="ft notranslate network_health">
+               <div id="network_health_graph_641762946900853555" class="health_graph fill-graph" style="position: relative; padding: 0px;">
+                  <canvas class="flot-base" width="200" height="18" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 200px; height: 18px;"></canvas>
+                  <canvas class="flot-overlay" width="200" height="18" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 200px; height: 18px;"></canvas>
+               </div>
+            </td>
+            <td class="ft notranslate nodes">1</td>
+            <td class="ft notranslate offline">0</td>
+         </tr>
+         <tr class="ftp1" data-idx="3" "="" id="row_3">
+            <td class="ft notranslate checkbox nodrag"><input type="checkbox" class="row_check"></td>
+            <td class="ft notranslate network_status nodrag ftc"><img style="margin-bottom:1px" src="/images/bubble-shadow-1.png" height="20px" width="20px"></td>
+            <td class="ft notranslate editable_name"><a class="node_group_name" href="/Live-Demo-Branch/n/oW_aHbmc/manage">Live Demo - Branch Firewall</a><input type="text" class="node_group_name" value="Live Demo - Branch Firewall" style="display: none"><span class="hover_edit_link_holder"><a href="#edit_node_group_name" class="fa fa-pencil btn btn-default" data-ng-id="641762946900853556" data-ng-type="wired"></a></span></td>
+            <td class="ft notranslate usage">384.44&nbsp;GB</td>
+            <td class="ft notranslate clients">61</td>
+            <td class="ft notranslate tags"></td>
+            <td class="ft notranslate type">Appliance</td>
+            <td class="ft notranslate network_health">
+               <div id="network_health_graph_641762946900853556" class="health_graph fill-graph" style="position: relative; padding: 0px;">
+                  <canvas class="flot-base" width="200" height="18" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 200px; height: 18px;"></canvas>
+                  <canvas class="flot-overlay" width="200" height="18" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 200px; height: 18px;"></canvas>
+               </div>
+            </td>
+            <td class="ft notranslate nodes">1</td>
+            <td class="ft notranslate offline">0</td>
+         </tr>
+         <tr class="ftp0" data-idx="4" "="" id="row_4">
+            <td class="ft notranslate checkbox nodrag"><input type="checkbox" class="row_check"></td>
+            <td class="ft notranslate network_status nodrag ftc"><img style="margin-bottom:1px" src="/images/bubble-shadow-1.png" height="20px" width="20px"></td>
+            <td class="ft notranslate editable_name"><a class="node_group_name" href="/Live-Demo-Switch/n/jWoO9bmc/manage">Live Demo - Switches</a><input type="text" class="node_group_name" value="Live Demo - Switches" style="display: none"><span class="hover_edit_link_holder"><a href="#edit_node_group_name" class="fa fa-pencil btn btn-default" data-ng-id="641762946900853557" data-ng-type="switch"></a></span></td>
+            <td class="ft notranslate usage">100.02&nbsp;TB</td>
+            <td class="ft notranslate clients">1410</td>
+            <td class="ft notranslate tags"></td>
+            <td class="ft notranslate type">Switch</td>
+            <td class="ft notranslate network_health">
+               <div id="network_health_graph_641762946900853557" class="health_graph fill-graph" style="position: relative; padding: 0px;">
+                  <canvas class="flot-base" width="200" height="18" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 200px; height: 18px;"></canvas>
+                  <canvas class="flot-overlay" width="200" height="18" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 200px; height: 18px;"></canvas>
+               </div>
+            </td>
+            <td class="ft notranslate nodes">3</td>
+            <td class="ft notranslate offline">0</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
